@@ -13,6 +13,13 @@ const BASE_URL = "https://azu.github.io/github-search-rss";
 export const SEARCH_ITEMS: RSSItem[] = [
     // Issue
     {
+        title: "microsoft/vscode Iteration Plan",
+        query: "repo:microsoft/vscode is:issue is:open label:iteration-plan",
+        TYPE: "ISSUE",
+        link: `${BASE_URL}/vscode-iteration-plan.json`,
+        homepage: "https://github.com/microsoft/vscode/issues?q=state%3Aopen+label%3A%22iteration-plan%22"
+    },
+    {
         title: "microsoft/TypeScript Iteration Plan",
         query: "repo:microsoft/TypeScript is:issue label:Planning",
         TYPE: "ISSUE",
@@ -110,7 +117,7 @@ export const SEARCH_ITEMS: RSSItem[] = [
     },
     {
         title: "papers-we-love new papers",
-        query: 'repo:papers-we-love/papers-we-love is:pr is:merged add',
+        query: "repo:papers-we-love/papers-we-love is:pr is:merged add",
         TYPE: "ISSUE",
         link: `${BASE_URL}/papers-we-love.json`
     },
