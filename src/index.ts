@@ -316,7 +316,7 @@ ${slackCommands.join("\n")}
 
 </details>
 <footer>
-<a href="https://github.com/azu/github-search-rss">Source Code</a>
+<a href="https://github.com/uta8a/github-search-rss">Source Code</a>
 </footer>
 </body>
 </html>

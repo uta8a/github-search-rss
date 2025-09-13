@@ -4,7 +4,7 @@
  **/
 import { RSSItem } from "./index";
 
-const BASE_URL = "https://azu.github.io/github-search-rss";
+const BASE_URL = "https://uta8a.github.io/github-search-rss";
 // Query references
 // https://docs.github.com/en/github/searching-for-information-on-github/understanding-the-search-syntax
 // https://docs.github.com/en/github/searching-for-information-on-github/about-searching-on-github
